@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <input type="text" id="username" placeholder="Enter your username" />
+    <input type="text" id="message" placeholder="Enter your message" />
+    <button id="sendButton" class="btn btn-primary">Send</button>
+</div>
+<hr />
+<div id="chatBox"></div>
+
+@section Scripts{
+    <script src="~/js/chatbox_SignalR.js"></script>
+}

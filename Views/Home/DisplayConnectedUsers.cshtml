@@ -1,0 +1,8 @@
+﻿@model ConnectedUsers
+
+<div><h2>Connected User's ID List</h2></div>
+
+@foreach(var userID in ConnectedUsers.Users)
+{
+    <li>@userID;</li>
+}
